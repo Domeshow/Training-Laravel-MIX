@@ -13,6 +13,7 @@ This is the basic application to post messages, like and unlike.
 Take a look of what is this application build for:
 
 - Laravel Mix
+- Tailwind CSS
 - [Routing](https://laravel.com/docs/routing).
 - [Controllers](https://laravel.com/docs/controllers).
 - [Models](https://laravel.com/docs/Models).
