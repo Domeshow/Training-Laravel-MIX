@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
+
+    function __construct() {
+        $this->middleware("auth")->only(["store"]);
+    }
+
     public function index() {
         $posts = Post::with(['user', 'likes'])->latest()->paginate(10);
 
